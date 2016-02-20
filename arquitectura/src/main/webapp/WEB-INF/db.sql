@@ -11,11 +11,6 @@ CREATE DATABASE arquitectura
 \c arquitectura;
 
 
-
-
-
-
-
 CREATE SCHEMA arquitectura
   AUTHORIZATION postgres;
   
