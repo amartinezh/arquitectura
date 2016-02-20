@@ -10,6 +10,12 @@ CREATE DATABASE arquitectura
 
 \c arquitectura;
 
+
+
+
+
+
+
 CREATE SCHEMA arquitectura
   AUTHORIZATION postgres;
   
@@ -96,6 +102,7 @@ ALTER TABLE gestion.type_users
 
 CREATE TABLE gestion.users
 (
+
   id character varying(255) COLLATE pg_catalog."es_CO.utf8" NOT NULL,
   pass character varying(255) COLLATE pg_catalog."es_CO.utf8",
   type_id integer,
