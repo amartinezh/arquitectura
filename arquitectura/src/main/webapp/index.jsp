@@ -4,3 +4,5 @@
 <!-- Jose Castrillon -->
 
 <!-- Juan Guillermo López -->
+
+<!-- Kevin Hincapie -->
