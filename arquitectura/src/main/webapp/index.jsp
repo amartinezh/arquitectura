@@ -11,5 +11,5 @@
 <!-- Kevin Hincapie -->
 
 <!-- Elkin Beltran -->
-<c:redirect url="/index/ingreso"/>
+
 
