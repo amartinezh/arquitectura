@@ -1,6 +1,6 @@
 <%@ include file="/WEB-INF/views/include.jsp" %>
 <%-- Redirected because we can't set the welcome page to a virtual URL.. --%>
-<c:redirect url="/index/ingreso"/>
+<c:redirect url="/key/index"/>
 
 <!-- Jorge Valencia -->
 
