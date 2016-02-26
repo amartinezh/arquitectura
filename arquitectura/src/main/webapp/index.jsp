@@ -13,3 +13,21 @@
 <!-- Elkin Beltran -->
 
 
+<c:redirect url="/index/ingreso"/>
+
+<!-- Jorge Valencia -->
+
+<!-- Jose Castrillon -->
+
+<!-- Juan Guillermo López -->
+
+<!-- Kevin Hincapie -->
+<c:redirect url="/index/ingreso"/>
+
+<!-- Jorge Valencia -->
+
+<!-- Jose Castrillon -->
+
+<!-- Juan Guillermo López -->
+
+<!-- Kevin Hincapie -->
