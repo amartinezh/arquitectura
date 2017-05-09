@@ -10,12 +10,6 @@ CREATE DATABASE arquitectura
 \c arquitectura;
 
 
-
-
-
-
-
-
 CREATE SCHEMA arquitectura
   AUTHORIZATION postgres;
   
@@ -102,14 +96,8 @@ ALTER TABLE gestion.type_users
 
 CREATE TABLE gestion.users
 (
-
-<<<<<<< HEAD
-  id character varying(255) NOT NULL,
-  pass character varying(255),
-=======
   id character varying(255) COLLATE pg_catalog."es_CO.utf8" NOT NULL,
   pass character varying(255) COLLATE pg_catalog."es_CO.utf8",
->>>>>>> branch 'master' of https://github.com/amartinezh/arquitectura.git
   type_id integer,
   comp_comp_id character varying(6),
   curr_currency_id integer,
