@@ -63,7 +63,7 @@ public class IndexController {
 			User uss = userManager.val(user.getId(), user.getPass());
 			if (uss != null) {
 				model.addAttribute("user_inicio", new session(user.getId()));
-				return "redirect:/indicadores/inicio";
+				return "redirect:/menu/inicio";
 			} else {
 				model.addAttribute("user", new User());
 				return "key/index";
