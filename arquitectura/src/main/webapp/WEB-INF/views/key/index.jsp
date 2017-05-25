@@ -156,7 +156,56 @@
 			</div>
 
 		</div>
+	
+		
+		<!-- MAIN CONTENT MENU 11 -->
+		
+		<div id="main" role="main">
+		
+			<div id="content" class="container">
 
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+						<div class="well no-padding">
+							<!--  <form action="index.html" id="login-form" class="smart-form client-form"> -->
+							<form:form method="POST" action="validar11" ModelAttribute="user" commandName="user" class="smart-form client-form">
+								<header>
+								<img width="100" height="60" src="<c:url value="/resources/img/adm/logo.png" />" >
+									Ingresar al sistema 11
+								</header>
+								<fieldset>
+									<section>
+										<label class="label">Usuario</label>
+										<label class="input"> <i class="icon-append fa fa-user"></i>
+											<form:input path="id" autocomplete="off"/>
+											<form:errors path="id" cssclass="error"/>
+											<b class="tooltip tooltip-top-right"><i class="fa fa-user txt-color-teal"></i> Por favor ingrese su identificación</b></label>
+									</section>
+									<section>
+										<label class="label">Clave</label>
+										<label class="input"> <i class="icon-append fa fa-lock"></i>
+											<!-- <input type="password" name="password">  --> 
+											<form:input type="password" path="pass"/>
+											<form:errors path="pass" cssclass="error"/>  
+											<b class="tooltip tooltip-top-right"><i class="fa fa-lock txt-color-teal"></i> Ingrese su clave</b> </label>										
+									</section>									
+								</fieldset>
+								<footer>
+									<button type="submit" class="btn btn-primary">
+										Menu 11 ingresar
+									</button>
+								</footer>
+							<!--  </form>  -->
+							</form:form>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		
 		<!--================================================== -->	
 
 		<!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->

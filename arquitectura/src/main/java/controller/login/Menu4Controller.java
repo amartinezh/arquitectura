@@ -25,6 +25,7 @@ import service.login.UserManager;
 @Controller
 @RequestMapping(value = "/inicio4")
 @SessionAttributes({ "user_inicio" })
+
 public class Menu4Controller {
 	@RequestMapping(value = "/menu4", method = RequestMethod.GET)
 	public String employee(Map<String, Object> model) {
