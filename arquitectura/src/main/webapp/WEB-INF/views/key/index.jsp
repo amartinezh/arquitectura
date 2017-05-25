@@ -123,7 +123,7 @@
 							<form:form method="POST" action="validar4" ModelAttribute="user" commandName="user" class="smart-form client-form">
 								<header>
 								<img width="100" height="60" src="<c:url value="/resources/img/adm/logo.png" />" >
-									Ingreso al Sistema
+									Ingreso al Sistema 4
 								</header>
 								<fieldset>
 									<section>
@@ -144,7 +144,7 @@
 								</fieldset>
 								<footer>
 									<button type="submit" class="btn btn-primary">
-										Ingresar
+										Ingresar 4
 									</button>
 								</footer>
 							<!--  </form>  -->
