@@ -120,10 +120,10 @@
 					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
 						<div class="well no-padding">
 							<!--  <form action="index.html" id="login-form" class="smart-form client-form"> -->
-							<form:form method="POST" action="validar4" ModelAttribute="user" commandName="user" class="smart-form client-form">
+							<form:form method="POST" action="validar1" ModelAttribute="user" commandName="user" class="smart-form client-form">
 								<header>
 								<img width="100" height="60" src="<c:url value="/resources/img/adm/logo.png" />" >
-									Ingreso al Sistema 4
+									Ingreso al Sistema
 								</header>
 								<fieldset>
 									<section>
@@ -144,7 +144,7 @@
 								</fieldset>
 								<footer>
 									<button type="submit" class="btn btn-primary">
-										Ingresar 4
+										Ingreso al Software
 									</button>
 								</footer>
 							<!--  </form>  -->
