@@ -204,7 +204,7 @@
 
 		</div>
 		
-		<!-- MAIN CONTENT MENU 11 -->
+		<!--MENU 11 -->
 		
 		<div id="main" role="main">
 		
@@ -252,7 +252,6 @@
 		</div>
 		<div id="main" role="main">
 
-<<<<<<< HEAD
 			<!-- MAIN CONTENT 7 daniela quintero -->
 			<div id="content" class="container">
 
@@ -285,6 +284,17 @@
 								<footer>
 									<button type="submit" class="btn btn-primary">
 										Ingresar al 7
+										</button>
+								</footer>
+							<!--  </form>  -->
+							</form:form>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+		</div>
 =======
 <div id="main" role="main">
 
@@ -367,7 +377,7 @@
 								<footer>
 									<button type="submit" class="btn btn-primary">
 										Ingresar
->>>>>>> refs/remotes/origin/master
+<!--  refs/remotes/origin/master -->
 									</button>
 								</footer>
 							<!--  </form>  -->
