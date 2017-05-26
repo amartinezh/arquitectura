@@ -106,6 +106,24 @@ public class IndexController {
 		}
 	}
 	
+	@RequestMapping(value = "/validar8", method = RequestMethod.POST)
+	 public String add8Employee(@Valid @ModelAttribute("user") User user,
+			BindingResult result, Model model) {
+		if (result.hasErrors()) {
+			model.addAttribute("user", new User());
+			return "key/index";
+		} else {
+			User uss = userManager.val(user.getId(), user.getPass());
+			if (uss != null) {
+				model.addAttribute("user_inicio", new session(user.getId()));
+				return "redirect:/menu8/inicio8";
+			} else {
+				model.addAttribute("user", new User());
+				return "key/index";
+			}
+		}
+	}
+	
 	@RequestMapping(value = "/validar11", method = RequestMethod.POST)
 	 public String add11Employee(@Valid @ModelAttribute("user") User user,
 			BindingResult result, Model model) {
