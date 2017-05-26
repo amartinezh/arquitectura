@@ -124,6 +124,24 @@ public class IndexController {
 		}
 	}
 	
+	@RequestMapping(value = "/validar12", method = RequestMethod.POST)
+	 public String add12Employee(@Valid @ModelAttribute("user") User user,
+			BindingResult result, Model model) {
+		if (result.hasErrors()) {
+			model.addAttribute("user", new User());
+			return "key/index";
+		} else {
+			User uss = userManager.val(user.getId(), user.getPass());
+			if (uss != null) {
+				model.addAttribute("user_inicio", new session(user.getId()));
+				return "redirect:/inicio12/menu12";
+			} else {
+				model.addAttribute("user", new User());
+				return "key/index";
+			}
+		}
+	}
+	
 	@RequestMapping(value = "/salir", method = RequestMethod.GET)
 	public String salir(Model model, SessionStatus status) {
 		status.setComplete();
