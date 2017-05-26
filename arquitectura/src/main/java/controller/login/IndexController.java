@@ -70,7 +70,7 @@ public class IndexController {
 			}
 		}
 	}
-	@RequestMapping(value = "/validar4", method = RequestMethod.POST)
+	@RequestMapping(value = "/validar1", method = RequestMethod.POST)
 	 public String add4Employee(@Valid @ModelAttribute("user") User user,
 			BindingResult result, Model model) {
 		if (result.hasErrors()) {
@@ -80,7 +80,7 @@ public class IndexController {
 			User uss = userManager.val(user.getId(), user.getPass());
 			if (uss != null) {
 				model.addAttribute("user_inicio", new session(user.getId()));
-				return "redirect:/inicio4/menu4";
+				return "redirect:/inicio1/menu1";
 			} else {
 				model.addAttribute("user", new User());
 				return "key/index";
